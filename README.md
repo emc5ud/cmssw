@@ -76,7 +76,9 @@ $ $VO_CMS_SW_DIR/common/cmspkg -a $SCRAM_ARCH update
 $ $VO_CMS_SW_DIR/common/cmspkg -a $SCRAM_ARCH install cms+cmssw+CMSSW_8_0_21
 ```
 This will take a while. 
+
 **(optional)** - changing permissions
+
 We can change the group of the cmssw directory using 
 ```bash
 $ chgrp <shared-group> cmssw
