@@ -25,6 +25,7 @@ $ module load gcc/5.4.0
 ### Setting up the environment
 
 This section assumes you are using the bash shell. If you use csh you will have to use setenv instead of export. 
+
 **Step 1** -  Make your cmssw directory. The install will be large, so I did this in scratch. 
 ```bash
 $ mkdir cmssw
