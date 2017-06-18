@@ -2,7 +2,9 @@
 
 Introduction to CMSSW: http://cms-sw.github.io
 
-# Installing CMSSW on Rivanna 
+If you are a neuphysics member you should **not** have to repeat the installation steps. 
+
+## Installing CMSSW on Rivanna 
 These instructions were combined from the instructions for the [Texas A&M Brazos cluster](http://mitchcomp.physics.tamu.edu/mitchcomp/guides/admin/CMSSWSystemInstallGuide.pdf) and this [twiki](https://twiki.cern.ch/twiki/bin/view/CMSPublic/SDTCMSSW_aptinstaller) (you will need a CERN account to view this link).
 
 ### Dependencies 
@@ -89,3 +91,26 @@ In our case <shared-group> is neuphysics. Next, we can change permissions with
 $ chmod g+rx cmssw
 ```
 
+## Using CMSSW
+
+**Step 1** setting up environment
+
+it is likely best to have the following in your ~/.bash_profile
+
+```bash
+umask 0022 #default permissions
+export VO_CMS_SW_DIR=/scratch/emc5ud/cmssw
+export SCRAM_ARCH=slc6_amd64_gcc530   #choose the desired scram_arch
+source $VO_CMS_SW_DIR/cmsset_default.sh
+ulimit -s 11000 #
+```
+
+**Step 2** getting your appropriate version of CMSSW
+
+```bash
+scram p CMSSW_8_0_21 #again, your version of choice
+```
+THe versions available to you depends on what I have installed on the system and your architecture. As of writing this, I only have version 8_0_21 installed on rivanna. Contact me at emc5ud@virginia.edu if you want a different version. 
+
+### Running Jobs
+ TBA
