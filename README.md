@@ -14,6 +14,7 @@ There are a variety of depencies that CMSSW needs to run. Lucky for us all of th
 $ rpm -qa | grep wget
 ```
 Note that this command will only find the application if it is owned by a package and is installed as an rpm. According to Rivanna's help desk, this is often not the case for most systems. For example, on Rivanna zsh is not owned by any package. We will have to change the setup script shortly to account for this.  
+
 **Important**
 
 To get the latest versiions of CMSSW, we will need to load a more recent version of gcc. 
