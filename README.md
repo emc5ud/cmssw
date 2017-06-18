@@ -53,6 +53,7 @@ for p in $requiredSeeds; do
 done
 ```
 We simply just told the script to not check for zsh. Don't run the script just yet. 
+
 **Step 4** - Set your architecture 
 
 Your architecture is a combination of your OS, your processor type, and compiler. To use the latest versions of cmssw, use
