@@ -5,7 +5,7 @@ Introduction to CMSSW: http://cms-sw.github.io
 If you are a neuphysics member you should **not** have to repeat the installation steps. 
 
 ## Installing CMSSW on Rivanna 
-These instructions were combined from the instructions for the [Texas A&M Brazos cluster](http://mitchcomp.physics.tamu.edu/mitchcomp/guides/admin/CMSSWSystemInstallGuide.pdf) and this [twiki](https://twiki.cern.ch/twiki/bin/view/CMSPublic/SDTCMSSW_aptinstaller) (you will need a CERN account to view this link).
+These instructions were combined from the instructions for the [Texas A&M Brazos cluster](http://mitchcomp.physics.tamu.edu/mitchcomp/guides/admin/CMSSWSystemInstallGuide.pdf) and this [twiki](https://twiki.cern.ch/twiki/bin/view/CMSPublic/SDTCMSSW_aptinstaller) (you will need a CERN account to view this link). If my account ever gets suspended on Rivanna someone will have to repeat these steps in their scratch directory.
 
 ### Dependencies 
 
