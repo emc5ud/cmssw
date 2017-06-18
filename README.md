@@ -72,7 +72,9 @@ sh -x $VO_CMS_SW_DIR/bootstrap.sh setup -path $VO_CMS_SW_DIR -arch $SCRAM_ARCH >
 Remember if you log out between steps 1-5 you will have to reset your environmental variables. This script will then run in the background while producing a log file you can periodically open. If the script is successful, you should see something like
 
 ....
+
 **Everything completed correctly.**
+
 ....
 
 at the end of the log file. 
